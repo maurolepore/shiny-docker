@@ -2,7 +2,14 @@
 
 This repo is a simple example of a containerized Shiny app that you can setup co continuously build and deploy on Google Cloud Run.
 
-You can test this app in a Docker container with:
+You can build and run this app with `docker-compose`:
+
+```
+docker-compose build
+docker-compose up
+```
+
+Or with `docker`:
 
 ```
 docker build -t shiny-docker .
